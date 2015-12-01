@@ -1,0 +1,15 @@
+LOCAL_PATH := vendor/google/gapps/Core
+
+$(call inherit-product-if-exists, $(LOCAL_PATH)/configupdater/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/framework/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/gmscore/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/googlebackuptransport/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/googlecontactssync/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/googlefeedback/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/googleonetimeinitializer/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/googlepartnersetup/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/gsfcore/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/gsflogin/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/packageinstaller/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/setupwizard/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/vending/google.mk)
