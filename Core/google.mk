@@ -10,6 +10,6 @@ $(call inherit-product-if-exists, $(LOCAL_PATH)/googleonetimeinitializer/google.
 $(call inherit-product-if-exists, $(LOCAL_PATH)/googlepartnersetup/google.mk)
 $(call inherit-product-if-exists, $(LOCAL_PATH)/gsfcore/google.mk)
 $(call inherit-product-if-exists, $(LOCAL_PATH)/gsflogin/google.mk)
-$(call inherit-product-if-exists, $(LOCAL_PATH)/packageinstaller/google.mk)
+$(call inherit-product-if-exists, $(LOCAL_PATH)/packageinstallergoogle/google.mk)
 $(call inherit-product-if-exists, $(LOCAL_PATH)/setupwizard/google.mk)
 $(call inherit-product-if-exists, $(LOCAL_PATH)/vending/google.mk)

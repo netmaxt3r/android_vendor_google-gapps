@@ -105,8 +105,16 @@ EOF
     done
 
 }
+
+cleanUpApks(){
+    for x in $(find out/ -type f -name *.apk) ;
+        do
+            echo "cleaning up $x"
+            zip -d $x lib/*  >  /dev/null 2>&1
+        done
+}
 checkX Core
 checkX GApps
 checkX Optional
-cd $mePath
 
+cd $mePath
